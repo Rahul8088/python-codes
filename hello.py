@@ -5,3 +5,5 @@ b=list(input())
 
 for e in b:
   print(e)
+  
+print("bye")
