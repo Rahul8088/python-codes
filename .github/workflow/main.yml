@@ -1,0 +1,12 @@
+on: [push]
+
+jobs:
+  test_job:
+    runs-on: ubuntu-latest
+    name: run style check
+    steps:
+    - name: Run Action
+      id: helloworld
+      uses: LakshitF/pylint3-action@master
+      with:
+        filename: 'hello.py'
